@@ -80,16 +80,33 @@ Version: 1.0
  }
  /* change border colour to suit your needs */
  hr {
-     display:block;
-     height:1px;
-     border:0;
-     border-top:1px solid #cccccc;
-     margin:1em 0;
-     padding:0;
- }
- input, select {
-     vertical-align:middle;
- }
- body {
-     background-color: yellow;
- }
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+input, select {
+    vertical-align:middle;
+}
+html {
+   font-size: 62.5%;
+}
+body {
+   font-size: 1.2rem;
+}
+*, *::before, *::after {
+   box-sizing: border-box;
+}
+a:link, a:visited, a:hover, a:active {
+   text-decoration: none;
+}
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+ul, li {
+    list-style: none;
+}

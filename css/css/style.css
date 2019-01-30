@@ -1,6 +1,214 @@
-/*
-Theme Name: PF
-Author: Zcoder83    
-Description: My Work.
-Version: 1.0
-*/
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+body.home {
+  background-color: #f1ed62;
+  color: #3f43e4;
+  -webkit-transition: background-color 3s linear;
+  transition: background-color 3s linear;
+}
+
+body.home a {
+  color: #3f43e4;
+}
+
+body.page-template-who {
+  background-color: #ffc9c9;
+  color: #3f43e4;
+}
+
+body.page-template-who a {
+  color: #3f43e4;
+}
+
+body.page-template-work {
+  background-color: #e6674a;
+  color: #fdf475;
+}
+
+body.page-template-work a {
+  color: #fdf475;
+}
+
+.header {
+  width: 100%;
+  margin-top: 4.4444%;
+}
+
+.header .logo {
+  display: inline-block;
+  width: 55px;
+  height: 50px;
+  float: left;
+  margin-left: 4.4444%;
+}
+
+.header .logo img {
+  width: 100%;
+}
+
+.header .menu-menu-1-container {
+  width: 70%;
+  float: right;
+  text-align: right;
+  margin-right: 11.1111%;
+}
+
+.header .menu-menu-1-container li {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.header .menu-menu-1-container li a {
+  line-height: 50px;
+  height: 50px;
+  letter-spacing: 1.6px;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.main-page {
+  width: 100%;
+  margin-top: 45px;
+}
+
+.main-page .main-img {
+  width: 100%;
+  position: relative;
+  height: 730px;
+}
+
+.main-page .main-img img {
+  display: inline-block;
+  width: 76.6666%;
+  height: auto;
+  text-align: right;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.main-page .main-img .self-intro {
+  position: absolute;
+  left: 11.1111%;
+  top: 11%;
+}
+
+.main-page .main-img .self-intro h1 {
+  font-size: 10.605rem;
+  line-height: 1.1;
+}
+
+.main-page .main-img .self-intro p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  margin-top: 50px;
+}
+
+/* who am i*/
+.align-center {
+  width: 100%;
+  margin-top: 45px;
+  text-align: center;
+  padding-top: 8.8888%;
+}
+
+.align-center h1 {
+  font-size: 100px;
+  margin-bottom: 50px;
+}
+
+.align-center p {
+  font-size: 1.6rem;
+}
+
+.mie-intro {
+  width: 100%;
+  margin-bottom: 200px;
+}
+
+.mie-intro .wrapper {
+  position: relative;
+  padding-left: 11.1111%;
+}
+
+.mie-intro .wrapper h2 {
+  font-size: 4.0rem;
+  margin-top: 150px;
+  margin-bottom: 70px;
+}
+
+.mie-intro .wrapper p {
+  width: 660px;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+.mie-intro .wrapper .mie-photo {
+  position: absolute;
+  bottom: 0;
+  right: 11.1111%;
+  display: inline-block;
+  width: 779px;
+  height: 438px;
+  z-index: -10;
+}
+
+.mie-intro .wrapper .linked-in {
+  display: inline-block;
+  margin-top: 65px;
+}
+
+/* Work*/
+.projects {
+  text-align: center;
+  color: #fff;
+  margin-top: 230px;
+}
+
+.projects .select-p {
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.projects span {
+  margin-top: 15px;
+  display: inline-block;
+  color: #fdf475;
+  font-weight: bold;
+  -webkit-transform: rotate(20deg);
+          transform: rotate(20deg);
+}
+
+.projects .project-item {
+  margin-top: 95px;
+  margin-bottom: 300px;
+}
+
+.projects .project-item h2 {
+  margin-top: -260px;
+}
+
+.projects .project-item h2 a {
+  display: inline-block;
+  color: #fff;
+  font-size: 80px;
+}
+
+.projects .project-item .project-img {
+  display: inline-block;
+  width: 352px;
+  height: 203px;
+}
+
+.projects .project-item .project-img img {
+  display: block;
+  width: 100%;
+}
+
+.page-template-work .logo img {
+  content: url(../../img/logo-y.png);
+}
