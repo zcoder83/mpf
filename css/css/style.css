@@ -207,8 +207,178 @@ body.page-template-work a {
 .projects .project-item .project-img img {
   display: block;
   width: 100%;
+  height: 100%;
 }
 
 .page-template-work .logo img {
   content: url(../../img/logo-y.png);
+}
+
+/* Cebu work */
+.post-template-single-phili header,
+.post-template-single-pfBook header,
+.post-template-single-firstclass header,
+.post-template-single-tamakuchen header {
+  display: none;
+}
+
+.post-template-single-phili {
+  color: #212121;
+}
+
+.back-home {
+  margin: 80px;
+}
+
+.back-home .go-front {
+  display: inline-block;
+  float: right;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #212121;
+  line-height: 41.455px;
+}
+
+.back-home .go-front span {
+  content: url(../../img/arrow.png);
+  margin-left: 50px;
+}
+
+.pf-work {
+  width: 1030px;
+  margin: 0 auto 90px;
+  color: #212121;
+}
+
+.pf-work .title {
+  font-size: 1.2rem;
+  vertical-align: top;
+}
+
+.pf-work .pf-th {
+  font-size: 4.0rem;
+  line-height: 0.8;
+  font-weight: 600;
+}
+
+.pf-work .right-100 {
+  width: 140px;
+}
+
+.pf-work .right-150 {
+  width: 270px;
+}
+
+.pf-work .desc {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.pf-work .pf-desc {
+  font-size: 1.6rem;
+  line-height: 2;
+  font-weight: 500;
+}
+
+.pf-img {
+  width: 100%;
+}
+
+.pf-img img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.stand-out {
+  width: 1030px;
+  margin: 175px auto;
+  font-size: 0;
+}
+
+.stand-out .title {
+  float: left;
+  width: 415px;
+  font-size: 3.0rem;
+  line-height: 1.3;
+  font-weight: 600;
+}
+
+.stand-out .desc {
+  width: 615px;
+  font-size: 1.6rem;
+  float: left;
+  line-height: 2;
+  font-weight: 500;
+}
+
+.work-img {
+  width: 100%;
+  background-color: #f7f7f7;
+  padding-top: 50px;
+  padding-bottom: 170px;
+}
+
+.work-img .work-wrapper {
+  margin: auto;
+  width: 1030px;
+}
+
+.work-img .work-wrapper img {
+  display: block;
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+  background: url("../../img/bg-cebu.png") no-repeat;
+}
+
+footer.firstclass {
+  background: url("../../img/bg-firstclass.png") no-repeat;
+}
+
+footer.pf-book {
+  background: url("../../img/bg-pfbook.png") no-repeat;
+}
+
+footer.ft-tamakuchen {
+  background: url("../../img/bg-tamakuchen.png") no-repeat;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1030px;
+  margin: auto;
+  padding: 150px 0;
+}
+
+.footer div {
+  width: 33.3333%;
+  height: 100px;
+  line-height: 100px;
+}
+
+.footer a, .footer span {
+  display: inline-block;
+  color: #fff;
+}
+
+.footer .prev-project {
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+
+.footer .footer-work {
+  text-align: center;
+  font-size: 9.0rem;
+  font-weight: 600;
+}
+
+.footer .next-project {
+  font-size: 1.2rem;
+  text-align: right;
+  letter-spacing: 1px;
 }
