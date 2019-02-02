@@ -272,13 +272,32 @@ body.page-template-work {
 .work-img {
     width: 100%;
     background-color: #f7f7f7;
-    padding-top: 50px;
+    padding-top: 55px;
     padding-bottom: 170px;
     .work-wrapper {
         margin: auto;
         width: 1030px;
         img {
             display: block;
+            width: 100%;
+        }
+    }
+}
+.pfbook-content .work-img {
+    padding-bottom: 0;
+    padding-top: 110px;
+}
+.work-marble {
+    width: 100%;
+    padding: 110px 0;
+    margin-top: -3px;
+    margin-bottom: -3px;
+    background: url('../../img/bg-marble.png') no-repeat;
+    .book-page {
+        width: 1100px;
+        margin: auto;
+        img {
+            display: inline-block;
             width: 100%;
         }
     }
@@ -326,5 +345,18 @@ footer.ft-tamakuchen {
         font-size: 1.2rem;
         text-align: right;
         letter-spacing: 1px;
+    }
+}
+
+.contact {
+    text-align: center;
+    padding: 150px;
+    .contactmie {
+        font-size: 3.0rem;
+        font-weight: bold;
+    }
+    .email {  
+            font-size: 7.0rem;
+            font-weight: bold;
     }
 }

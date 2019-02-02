@@ -30,6 +30,26 @@ get_header();
         <div class="title">Stand out from<br>the crowd</div>
         <div class="desc">We were asked by BASIC to help them develop a new look and feel for NERD Skincare. Working closely with the SD team we developed several concepts that covered the e-commerce platform, branded content, and tone of voice. We then created a suite of brand assets as a toolkit that could be used by the NERD marketing team in their communications.</div>
     </div>
+    <div class="work-img">
+        <div class="work-wrapper">
+            <img src="<?php bloginfo('template_url'); ?>/img/book-1.png" alt="book-first">
+        </div>
+    </div>
+    <div class="work-marble">
+        <div class="book-page">
+            <img src="<?php bloginfo('template_url'); ?>/img/book-2.png" alt="book-second">
+        </div>
+    </div>
+    <div class="work-img">
+        <div class="work-wrapper">
+            <img src="<?php bloginfo('template_url'); ?>/img/book-3.png" alt="book-third">
+        </div>
+    </div>
+    <div class="work-marble">
+        <div class="book-page">
+            <img src="<?php bloginfo('template_url'); ?>/img/book-4.png" alt="book-fourth">
+        </div>
+    </div>
 </div>
 <footer class="pf-book">
     <div class="footer">
