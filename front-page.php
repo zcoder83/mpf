@@ -1,7 +1,6 @@
 <?php get_header(); ?>
     <div class="main-page">
         <div class="main-img">
-            <img src="<?php bloginfo('template_url'); ?>/img/main-img.jpg" alt="main-image">
             <div class="self-intro">
                 <h1>
                     WORKS<br>OF<br>MIE MURATA

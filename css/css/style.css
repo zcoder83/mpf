@@ -7,6 +7,10 @@ body.home {
   color: #3f43e4;
   -webkit-transition: background-color 3s linear;
   transition: background-color 3s linear;
+  background-image: url("../../img/main-img.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 2000px 1100px;
 }
 
 body.home a {
@@ -32,8 +36,9 @@ body.page-template-work a {
 }
 
 .header {
-  width: 100%;
-  margin-top: 4.4444%;
+  width: 1200px;
+  margin: auto;
+  padding-top: 80px;
 }
 
 .header .logo {
@@ -41,7 +46,6 @@ body.page-template-work a {
   width: 55px;
   height: 50px;
   float: left;
-  margin-left: 4.4444%;
 }
 
 .header .logo img {
@@ -52,12 +56,11 @@ body.page-template-work a {
   width: 70%;
   float: right;
   text-align: right;
-  margin-right: 11.1111%;
 }
 
 .header .menu-menu-1-container li {
   display: inline-block;
-  margin-left: 50px;
+  margin-left: 100px;
 }
 
 .header .menu-menu-1-container li a {
@@ -66,45 +69,54 @@ body.page-template-work a {
   letter-spacing: 1.6px;
   font-size: 1.3rem;
   font-weight: bold;
+  border-bottom: 1px solid transparent;
+}
+
+.header .menu-menu-1-container li a::after {
+  content: '';
+  display: block;
+  width: 0;
+  margin: 0 auto 0;
+  border-bottom: 4px solid #008adf;
+  -webkit-transition: width 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out;
+}
+
+.header .menu-menu-1-container li a:hover {
+  color: #008adf;
+}
+
+.header .menu-menu-1-container li a:hover::after {
+  width: 100%;
 }
 
 .main-page {
-  width: 100%;
-  margin-top: 45px;
+  width: 1200px;
+  margin: 0 auto 5%;
+  padding-top: 8%;
 }
 
-.main-page .main-img {
-  width: 100%;
-  position: relative;
-  height: 730px;
+.main-page .self-intro h1 {
+  font-size: 13.605rem;
+  font-weight: 600;
+  font-style: italic;
+  line-height: 1.3;
 }
 
-.main-page .main-img img {
-  display: inline-block;
-  width: 76.6666%;
-  height: auto;
-  text-align: right;
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: -1;
-}
-
-.main-page .main-img .self-intro {
-  position: absolute;
-  left: 11.1111%;
-  top: 11%;
-}
-
-.main-page .main-img .self-intro h1 {
-  font-size: 10.605rem;
-  line-height: 1.1;
-}
-
-.main-page .main-img .self-intro p {
+.main-page .self-intro p {
   font-size: 1.6rem;
-  line-height: 1.5;
-  margin-top: 50px;
+  line-height: 2.3;
+  margin-top: 3%;
+}
+
+.prev {
+  content: url("../../img/prev.png");
+  margin-right: 30px;
+}
+
+.next {
+  content: url("../../img/next.png");
+  margin-left: 30px;
 }
 
 /* who am i*/
@@ -218,7 +230,9 @@ body.page-template-work a {
 .post-template-single-phili header,
 .post-template-single-pfBook header,
 .post-template-single-firstclass header,
-.post-template-single-tamakuchen header {
+.post-template-single-tamakuchen header,
+.post-template-single-izumi header,
+.post-template-single-nisshin header {
   display: none;
 }
 
@@ -290,28 +304,6 @@ body.page-template-work a {
   height: auto;
 }
 
-.stand-out {
-  width: 1030px;
-  margin: 175px auto;
-  font-size: 0;
-}
-
-.stand-out .title {
-  float: left;
-  width: 415px;
-  font-size: 3.0rem;
-  line-height: 1.3;
-  font-weight: 600;
-}
-
-.stand-out .desc {
-  width: 615px;
-  font-size: 1.6rem;
-  float: left;
-  line-height: 2;
-  font-weight: 500;
-}
-
 .work-img {
   width: 100%;
   background-color: #f7f7f7;
@@ -367,6 +359,10 @@ footer.pf-book {
 
 footer.ft-tamakuchen {
   background: url("../../img/bg-tamakuchen.png") no-repeat;
+}
+
+footer.ft-izumi {
+  background: url("../../img/bg-izumi.png") no-repeat;
 }
 
 .footer {
