@@ -38,11 +38,12 @@ body.page-template-work {
     padding-top: 80px;
     .logo {
         display: inline-block;
-        width: 55px;
-        height: 50px;
+        width: 44px;
+        height: 40px;
         float: left;
-        img {
+        svg path {
             width: 100%;
+            fill: #3f43e4;
         }
     }
     .menu-menu-1-container {
@@ -78,6 +79,12 @@ body.page-template-work {
     }
     
 }
+.page-template-work .logo svg path {
+    fill: #fdf475;
+}
+.page-template-contact .logo svg path {
+    fill: #212121;
+}
 .main-page {
     width: 1200px;
     margin: 0 auto 5%;
@@ -111,8 +118,9 @@ body.page-template-work {
     text-align: center;
     padding-top: 8.8888%;
     h1 {
-        font-size: 100px;
+        font-size: 10.0rem;
         margin-bottom: 50px;
+        font-style: italic;
     }
     p {
         font-size: 1.6rem;
@@ -128,7 +136,8 @@ body.page-template-work {
         h2 {
             font-size: 4.0rem;
             margin-top: 150px; //230px;
-            margin-bottom: 70px; 
+            margin-bottom: 70px;
+            font-weight: bold; 
         }
         p {
             width: 660px;
@@ -190,11 +199,6 @@ body.page-template-work {
         }
     }
 }
-.page-template-work {
-    .logo img {
-        content:url(../../img/logo-y.png);
-    }
-}
 /* Cebu work */
 .post-template-single-phili header,
 .post-template-single-pfBook header,
@@ -209,14 +213,11 @@ body.page-template-work {
 }
 .back-home {
     margin: 80px;
-    .logo {
-    
-    }
     .go-front {
         display: inline-block;
         float: right;
         font-size: 1.2rem;
-        font-weight: bold;
+        font-weight: 600;
         color: #212121;
         line-height: 41.455px;
         span {
@@ -296,7 +297,7 @@ body.page-template-work {
         }
     }
 }
-footer {
+footer.ft-cebu {
     width: 100%;
     background: url('../../img/bg-cebu.png') no-repeat;
 }
@@ -311,6 +312,9 @@ footer.ft-tamakuchen {
 }
 footer.ft-izumi {
     background: url('../../img/bg-izumi.png') no-repeat;
+}
+footer.ft-nisshin {
+    background: url('../../img/bg-nisshin.png') no-repeat;
 }
 .footer {
     display: flex;
@@ -344,16 +348,12 @@ footer.ft-izumi {
         letter-spacing: 1px;
     }
 }
-
-.contact {
-    text-align: center;
-    padding: 150px;
-    .contactmie {
-        font-size: 3.0rem;
-        font-weight: bold;
+.page-template-contact {
+    .menu-item a {
+        color: #212121;
     }
-    .email {  
-            font-size: 7.0rem;
-            font-weight: bold;
-    }
+}
+.post-template .logo img {
+    width: 44px;
+    height: 40px;
 }

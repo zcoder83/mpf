@@ -6,7 +6,7 @@
 get_header();
 ?>
 <div class="nisshin-content">
-    <div class="back-home clearfix"><a class="logo" href="<?php echo get_home_url(); ?>"><img src="<?php bloginfo('template_url'); ?>/img/logo-b.png" alt="logo"></a><a class="go-front" href="<?php echo home_url(); ?>/work">BACK TO PROJECTS<span></span></a></div>
+    <div class="back-home clearfix"><a class="logo" href="<?php echo get_home_url(); ?>"><img src="<?php bloginfo('template_url'); ?>/img/mie_logo.svg" alt="logo"></a><a class="go-front" href="<?php echo home_url(); ?>/work">BACK TO PROJECTS<span></span></a></div>
     <table class="pf-work">
         <tr>
             <td class="title right-100">YEAR</td>
@@ -28,7 +28,7 @@ get_header();
     <div class="pf-img"><img src="<?php bloginfo('template_url'); ?>/img/nisshin.jpg" alt=""></div>
     <div class="work-img">
         <div class="work-wrapper">
-            <img src="<?php bloginfo('template_url'); ?>/img/nisshin-work.png" alt="nisshin-work">
+            <img src="<?php bloginfo('template_url'); ?>/img/nisshin-work.jpg" alt="nisshin-work">
         </div>
     </div>
 </div>
