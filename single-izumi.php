@@ -11,7 +11,7 @@ get_header();
         <tr>
             <td class="title right-100">YEAR</td>
             <td class="title right-150">DELIVERABLES</td>
-            <td class="pf-th">IZUMI</td>
+            <td class="pf-th">Kaikatei Izumi</td>
             
         </tr>
         <tr>
@@ -37,7 +37,7 @@ get_header();
         <div class="prev-project">
             <a href="<?php echo home_url('/tamakuchen');?>" alt="prev"><span class="prev"></span>PREV PROJECT</a>
         </div>
-        <div class="footer-work"><span>Work</span></div>
+        <div class="footer-work"><a class="work-link" href="<?php echo home_url(); ?>/work"><span>Work</span></a></div>
         <div class="next-project">
             <a href="<?php echo home_url('/Cebu-IT-Abroad');?>" alt="next">NEXT PROJECT<span class="next"></span></a>
         </div>

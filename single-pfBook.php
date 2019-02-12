@@ -52,7 +52,7 @@ get_header();
         <div class="prev-project">
             <a href="<?php echo home_url('/Cebu-IT-Abroad');?>" alt="prev"><span class="prev"></span>PREV PROJECT</a>
         </div>
-        <div class="footer-work"><span>Work</span></div>
+        <div class="footer-work"><a class="work-link" href="<?php echo home_url(); ?>/work"><span>Work</span></a></div>
         <div class="next-project">
             <a href="<?php echo home_url('/First-class');?>" alt="next">NEXT PROJECT<span class="next"></span></a>
         </div>

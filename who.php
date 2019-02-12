@@ -19,7 +19,7 @@ Since going freelance in 2014, I successfully designed and developed websites fo
 What I enjoy most about what I do is being able to combine creativity and analytical elements in a very collaborative and transparent way. My clients always praise my honest opinion and often look for my input on innovative ways to grow their business.
             </p>
             <a class="linked-in" href="#"><img src="<?php bloginfo('template_url'); ?>/img/linked-in.png" alt="linked-in"></a>
-            <img class="mie-photo" src="<?php bloginfo('template_url'); ?>/img/miemurata.jpg" alt="mie-murata">
+            
         </div>
     </div>
 <?php get_footer(); ?>
